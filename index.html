@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Stocking</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  </head>
+
+  <body>
+
+    <!-- <div id="p01">
+      <h3>This is JQuery</h3>
+      <ul id="list"></ul>
+    </div> -->
+
+    <!-- <div>
+      <h3>This is React.js</h3>
+      <ul id="event-list"></ul>
+    </div> -->
+
+    <form id="symbol-form">
+      Add symbol:
+      <input type="text" id="symbol" placeholder="Symbol" />
+      <button type="button" class="add-symbol">Add</button>
+    </form>
+
+    <br>
+
+    <h3>Stocks Table</h3>
+    <table class="symbol-list" border="1" style="width:50%">
+      <tr>
+        <td>SMPL</td>
+        <td><input type="button" value="Remove" onclick="SomeDeleteRowFunction(this)"></td>
+      </tr>
+    </table>
+
+    <script type="text/javascript" src="src/stocks.js"></script>
+
+    <!-- <script type="text/babel" src="src/event_list_react.js"></script> -->
+    <!-- <script type="text/javascript" src="src/event_list_jquery.js"></script> -->
+
+  </body>
+</html>
